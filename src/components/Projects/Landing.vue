@@ -5,9 +5,6 @@
       <p class="description">
         Découvrez les projets, actions et idées que nous portons au CMJ.
       </p>
-      <router-link class="button" to="/">
-        Découvrir
-      </router-link>
     </div>
     <div class="right">
       <img src="@/assets/image/project-illustration.png" alt="project-illustration" class="image">
@@ -51,24 +48,6 @@ export default {
       color: colors.$black;
       font-size: 1.2rem;
       line-height: 1;
-    }
-
-    .button {
-      font-family: fonts.$montserrat;
-      color: colors.$white;
-      background-color: colors.$black;
-      padding: 0.5em 1.7em;
-      width: fit-content;
-      font-size: 1.3rem;
-      text-decoration: none;
-      border-radius: 99px;
-      border: 2px solid colors.$black;
-      transition: ease-in-out .2s;
-
-      &:hover {
-        color: colors.$black;
-        background-color: colors.$white;
-      }
     }
   }
 

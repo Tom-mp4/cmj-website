@@ -12,7 +12,7 @@
         <h2 class="title">Navigation</h2>
         <ul class="footer-menu">
           <li><router-link class="link" to="/">Accueil</router-link></li>
-          <li><router-link class="link" to="/projets">Nos Projets</router-link></li>
+          <li><router-link class="link" to="/projects">Nos Projets</router-link></li>
           <li><router-link class="link" to="/conseillers">Les Conseillers</router-link></li>
           <li><router-link class="link" to="/candidatures">Candidater</router-link></li>
         </ul>
@@ -35,7 +35,7 @@
     <div class="line"></div>
     <div class="footer-content-bottom">
       <p class="informations">
-        Développé par <a href="https://tom-mrt.fr" class="link">Tom</a> pour le CMJ - © 2022 - Tous droits réservés
+        Développé par <a href="https://tom-mrt.fr" class="link">Tom</a> pour le CMJ - © 2023 - Tous droits réservés
       </p>
     </div>
   </div>
