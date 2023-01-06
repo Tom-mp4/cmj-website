@@ -12,7 +12,7 @@
       <router-link class="button" to="/">
         Accueil
       </router-link>
-      <router-link class="button" to="/about">
+      <router-link class="button" to="/projects">
         Nos Projets
       </router-link>
       <router-link class="button" to="/conseillers">
