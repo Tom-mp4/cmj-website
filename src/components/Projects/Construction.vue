@@ -4,6 +4,9 @@
     <h2 class="project-title">
       {{title}}
     </h2>
+add    <p class="project-description">
+      {{description}}
+    </p>
   </a>
 </template>
 
@@ -13,20 +16,25 @@ export default {
     url: String,
     imageUrl: String,
     title: String,
+    description: String,
   },
 };
 </script>
 
 <style scoped lang="scss">
+@use '@/assets/styles/_colors.scss';
+@use '@/assets/styles/_fonts.scss';
 
 .construction {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-decoration: none;
-  width: fit-content;
+  width: 90%;
   gap: 10px;
+  background-color: colors.$gray;
+  padding: 20px;
+  border-radius: 20px;
 
   .img {
     border-radius: 20px;
@@ -35,9 +43,14 @@ export default {
   }
 
   .project-title {
-    color: #fafafa;
+    color: colors.$black;
     text-decoration: none;
     font-size: 24px;
+  }
+
+  .project-description {
+    color: colors.$black;
+    font-size: 16px;
   }
 }
 
