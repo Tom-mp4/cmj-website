@@ -4,7 +4,7 @@
     <h2 class="project-title">
       {{title}}
     </h2>
-add    <p class="project-description">
+    <p class="project-description">
       {{description}}
     </p>
   </a>

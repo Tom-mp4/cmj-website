@@ -2,8 +2,9 @@
   <div class="projects">
     <Navbar />
     <Landing />
-    <Competances />
+    <Competences />
     <Presenting />
+    <Informations />
     <Footer />
   </div>
 </template>
@@ -11,8 +12,9 @@
 <script>
 import Navbar from '@/components/Navbar.vue';
 import Landing from '@/components/Projects/Landing.vue';
-import Competances from '@/components/Projects/Competances.vue';
+import Competences from '@/components/Projects/Competences.vue';
 import Presenting from '@/components/Projects/Presenting.vue';
+import Informations from '@/components/Projects/Informations.vue';
 import Footer from '@/components/Footer.vue';
 
 export default {
@@ -20,8 +22,9 @@ export default {
   components: {
     Navbar,
     Landing,
-    Competances,
+    Competences,
     Presenting,
+    Informations,
     Footer,
   },
 };

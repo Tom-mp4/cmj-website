@@ -1,3 +1,7 @@
+<script setup>
+
+</script>
+
 <template>
   <div class="landing">
     <div class="left">
@@ -11,12 +15,6 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'Landing.vue',
-};
-</script>
 
 <style scoped lang="scss">
 @use '@/assets/styles/_colors.scss';

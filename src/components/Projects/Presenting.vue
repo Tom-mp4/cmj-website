@@ -1,8 +1,5 @@
 <template>
   <div class="projects">
-    <h1 class="title">
-      Nos Projets.
-    </h1>
     <div class="projects-cards">
       <Construction
         v-for="i in Array(constructions.length).keys()"
@@ -52,10 +49,7 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 25px;
-
-  .title {
-    color: colors.$black;
-  }
+  padding-bottom: 10%;
 
   .projects-cards {
     display: flex;
@@ -70,10 +64,6 @@ export default {
 
 @media (max-width: 800px) {
   .projects {
-    .title {
-      font-size: 28px;
-    }
-
     .projects-cards {
       display: grid;
       grid-template-columns: repeat(1, 1fr);

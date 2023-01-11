@@ -1,3 +1,7 @@
+<script setup>
+
+</script>
+
 <template>
   <div class="competences">
     <div class="items">
@@ -16,12 +20,6 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'Competances',
-};
-</script>
 
 <style scoped lang="scss">
 @use '@/assets/styles/_colors.scss';
