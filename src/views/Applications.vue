@@ -3,6 +3,7 @@
     <Navbar />
     <Landing />
     <Steps />
+    <Illustration />
     <Footer />
   </div>
 </template>
@@ -12,6 +13,7 @@ import Landing from '@/components/Applications/Landing.vue';
 import Navbar from '@/components/Navbar.vue';
 import Footer from '@/components/Footer.vue';
 import Steps from '@/components/Applications/Steps.vue';
+import Illustration from '@/components/Applications/Illustration.vue';
 
 export default {
   name: 'Applications',
@@ -19,6 +21,7 @@ export default {
     Steps,
     Navbar,
     Landing,
+    Illustration,
     Footer,
   },
 };

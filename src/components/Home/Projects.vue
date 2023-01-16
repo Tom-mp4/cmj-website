@@ -12,7 +12,7 @@
         spontanées, notre assemblée démocrative portent projets et initiatives qui permettent de
         pousser une voix jeune et nouvelle à travers la ville.
       </p>
-      <router-link class="button" to="/projets">
+      <router-link class="button" to="/projects">
         Découvrir nos Projets
       </router-link>
     </div>
