@@ -1,12 +1,14 @@
 <template>
   <a target="_blank" class="construction" :href="url">
     <img :src="imageUrl" alt="project_illustration" class="img">
-    <h2 class="project-title">
-      {{title}}
-    </h2>
-    <p class="project-description">
-      {{description}}
-    </p>
+    <div class="text">
+      <h2 class="project-title">
+        {{title}}
+      </h2>
+      <p class="project-description">
+        {{description}}
+      </p>
+    </div>
   </a>
 </template>
 
@@ -27,25 +29,24 @@ export default {
 
 .construction {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   text-decoration: none;
-  width: 90%;
-  gap: 10px;
-  background-color: colors.$gray;
-  padding: 20px;
+  width: 60%;
+  gap: 3rem;
   border-radius: 20px;
 
   .img {
     border-radius: 20px;
-    width: 100%;
-    object-fit: cover;
+    width: 45%;
   }
 
   .project-title {
     color: colors.$black;
-    text-decoration: none;
-    font-size: 24px;
+    font-family: fonts.$greycliff;
+    font-size: 3.5rem;
+    line-height: 1;
+    letter-spacing: -0.06em;
   }
 
   .project-description {
