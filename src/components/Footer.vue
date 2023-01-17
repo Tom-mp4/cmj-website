@@ -21,7 +21,7 @@
         <h2 class="title">Mentions Légales</h2>
         <ul class="footer-menu">
           <li>
-            <router-link class="link" to="/mentions-legales">Mentions Légales</router-link>
+            <router-link class="link" to="/legals">Mentions Légales</router-link>
           </li>
           <li>
             <router-link class="link" to="/conditions-generales">Conditions Générales</router-link>

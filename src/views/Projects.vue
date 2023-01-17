@@ -18,7 +18,7 @@ import Informations from '@/components/Projects/Informations.vue';
 import Footer from '@/components/Footer.vue';
 
 export default {
-  name: 'Home',
+  name: 'Projects',
   components: {
     Navbar,
     Landing,
