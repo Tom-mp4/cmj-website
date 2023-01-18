@@ -81,6 +81,18 @@
       line-height: 1;
       letter-spacing: -0.06em;
     }
+
+    .paragraph {
+      font-family: fonts.$montserrat;
+      color: colors.$black;
+      font-size: 1.3rem;
+      line-height: 1.5;
+      letter-spacing: -0.06em;
+    }
+
+    ul {
+      list-style: none;
+    }
   }
 
 </style>
